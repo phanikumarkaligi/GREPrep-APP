@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		758541671C2C34F800835DED /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758541661C2C34F800835DED /* CoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
+		758541901C2C383D00835DED /* markedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585418F1C2C383D00835DED /* markedList.swift */; settings = {ASSET_TAGS = (); }; };
 		75CED90A1C2C171B00CD1876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED9091C2C171B00CD1876 /* AppDelegate.swift */; };
 		75CED90C1C2C171B00CD1876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED90B1C2C171B00CD1876 /* ViewController.swift */; };
 		75CED90F1C2C171B00CD1876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CED90D1C2C171B00CD1876 /* Main.storyboard */; };
 		75CED9111C2C171B00CD1876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CED9101C2C171B00CD1876 /* Assets.xcassets */; };
 		75CED9141C2C171B00CD1876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CED9121C2C171B00CD1876 /* LaunchScreen.storyboard */; };
+		75CED91D1C2C1C7A00CD1876 /* wordList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CED91B1C2C1C7A00CD1876 /* wordList.plist */; settings = {ASSET_TAGS = (); }; };
+		75CED91E1C2C1C7A00CD1876 /* meaningList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CED91C1C2C1C7A00CD1876 /* meaningList.plist */; settings = {ASSET_TAGS = (); }; };
+		75CED9211C2C324700CD1876 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75CED91F1C2C324700CD1876 /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		75CED9241C2C332D00CD1876 /* GREList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED9221C2C332D00CD1876 /* GREList+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		75CED9251C2C332D00CD1876 /* GREList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CED9231C2C332D00CD1876 /* GREList.swift */; settings = {ASSET_TAGS = (); }; };
+		75EAD8861C2D1E7B008EF5C9 /* gre.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAD8851C2D1E7B008EF5C9 /* gre.png */; settings = {ASSET_TAGS = (); }; };
+		75EAD8881C2D231E008EF5C9 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAD8871C2D231E008EF5C9 /* title.png */; settings = {ASSET_TAGS = (); }; };
+		75EAD88A1C2D41C6008EF5C9 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EAD8891C2D41C6008EF5C9 /* detailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		75EAD88E1C2D6755008EF5C9 /* ABOUT-GRE.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAD88D1C2D6755008EF5C9 /* ABOUT-GRE.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		758541661C2C34F800835DED /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7585418F1C2C383D00835DED /* markedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = markedList.swift; sourceTree = "<group>"; };
 		75CED9061C2C171B00CD1876 /* GREPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GREPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CED9091C2C171B00CD1876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CED90B1C2C171B00CD1876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		75CED9101C2C171B00CD1876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CED9131C2C171B00CD1876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75CED9151C2C171B00CD1876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CED91B1C2C1C7A00CD1876 /* wordList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wordList.plist; sourceTree = "<group>"; };
+		75CED91C1C2C1C7A00CD1876 /* meaningList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = meaningList.plist; sourceTree = "<group>"; };
+		75CED9201C2C324700CD1876 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		75CED9221C2C332D00CD1876 /* GREList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GREList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		75CED9231C2C332D00CD1876 /* GREList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREList.swift; sourceTree = "<group>"; };
+		75EAD8851C2D1E7B008EF5C9 /* gre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gre.png; sourceTree = "<group>"; };
+		75EAD8871C2D231E008EF5C9 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		75EAD8891C2D41C6008EF5C9 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		75EAD88D1C2D6755008EF5C9 /* ABOUT-GRE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABOUT-GRE.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +76,23 @@
 		75CED9081C2C171B00CD1876 /* GREPrep */ = {
 			isa = PBXGroup;
 			children = (
+				7585418F1C2C383D00835DED /* markedList.swift */,
+				758541661C2C34F800835DED /* CoreDataStack.swift */,
+				75CED9221C2C332D00CD1876 /* GREList+CoreDataProperties.swift */,
+				75CED9231C2C332D00CD1876 /* GREList.swift */,
 				75CED9091C2C171B00CD1876 /* AppDelegate.swift */,
 				75CED90B1C2C171B00CD1876 /* ViewController.swift */,
 				75CED90D1C2C171B00CD1876 /* Main.storyboard */,
+				75EAD8891C2D41C6008EF5C9 /* detailViewController.swift */,
 				75CED9101C2C171B00CD1876 /* Assets.xcassets */,
+				75EAD88D1C2D6755008EF5C9 /* ABOUT-GRE.png */,
 				75CED9121C2C171B00CD1876 /* LaunchScreen.storyboard */,
 				75CED9151C2C171B00CD1876 /* Info.plist */,
+				75EAD8871C2D231E008EF5C9 /* title.png */,
+				75EAD8851C2D1E7B008EF5C9 /* gre.png */,
+				75CED91B1C2C1C7A00CD1876 /* wordList.plist */,
+				75CED91C1C2C1C7A00CD1876 /* meaningList.plist */,
+				75CED91F1C2C324700CD1876 /* Model.xcdatamodeld */,
 			);
 			path = GREPrep;
 			sourceTree = "<group>";
@@ -121,8 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EAD8861C2D1E7B008EF5C9 /* gre.png in Resources */,
+				75CED91E1C2C1C7A00CD1876 /* meaningList.plist in Resources */,
+				75EAD8881C2D231E008EF5C9 /* title.png in Resources */,
+				75CED91D1C2C1C7A00CD1876 /* wordList.plist in Resources */,
 				75CED9141C2C171B00CD1876 /* LaunchScreen.storyboard in Resources */,
 				75CED9111C2C171B00CD1876 /* Assets.xcassets in Resources */,
+				75EAD88E1C2D6755008EF5C9 /* ABOUT-GRE.png in Resources */,
 				75CED90F1C2C171B00CD1876 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CED9241C2C332D00CD1876 /* GREList+CoreDataProperties.swift in Sources */,
 				75CED90C1C2C171B00CD1876 /* ViewController.swift in Sources */,
+				758541901C2C383D00835DED /* markedList.swift in Sources */,
 				75CED90A1C2C171B00CD1876 /* AppDelegate.swift in Sources */,
+				758541671C2C34F800835DED /* CoreDataStack.swift in Sources */,
+				75CED9211C2C324700CD1876 /* Model.xcdatamodeld in Sources */,
+				75CED9251C2C332D00CD1876 /* GREList.swift in Sources */,
+				75EAD88A1C2D41C6008EF5C9 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +327,22 @@
 				75CED91A1C2C171B00CD1876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75CED91F1C2C324700CD1876 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75CED9201C2C324700CD1876 /* Model.xcdatamodel */,
+			);
+			currentVersion = 75CED9201C2C324700CD1876 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 75CED8FE1C2C171B00CD1876 /* Project object */;
 }
